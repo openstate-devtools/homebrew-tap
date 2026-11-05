@@ -1,28 +1,28 @@
 class Openstate < Formula
   desc "Terminal UI to inspect and time-travel app state, Redux DevTools compatible"
   homepage "https://github.com/franlol/openstate"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/franlol/openstate/releases/download/v0.1.2/openstate-darwin-arm64.tar.gz"
-      sha256 "35001dbf6f89cfbbf4c69ee6ad0c9c1f715c6e64460ccb7f74d8dfccae678959"
+      url "https://github.com/franlol/openstate/releases/download/v0.1.3/openstate-darwin-arm64.tar.gz"
+      sha256 "72195647a66947810980d350c0b245f97eb211af19bf354c2f7cf8b700d8f9e2"
     end
     on_intel do
-      url "https://github.com/franlol/openstate/releases/download/v0.1.2/openstate-darwin-x64.tar.gz"
-      sha256 "30a55fc1a8b05dd176368601d291c6e0f725f7719bbf64e95ad08bb612e6274d"
+      url "https://github.com/franlol/openstate/releases/download/v0.1.3/openstate-darwin-x64.tar.gz"
+      sha256 "b120ebaa775e48b76bcc5b419414fb2d63e97ab3f61bdc6c0e382fc389baa25d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/franlol/openstate/releases/download/v0.1.2/openstate-linux-arm64.tar.gz"
-      sha256 "44cc3bf3f29ee625b6508b1a9086716312786873900c6cce15d5f4247786f77b"
+      url "https://github.com/franlol/openstate/releases/download/v0.1.3/openstate-linux-arm64.tar.gz"
+      sha256 "7b1c4c8a58442b71c1598b6864f23374ce8f8ccbb44f2eb16ccad9e3bca12aa7"
     end
     on_intel do
-      url "https://github.com/franlol/openstate/releases/download/v0.1.2/openstate-linux-x64.tar.gz"
-      sha256 "d183cc9b9bfae3e9925a0206439359acaf2b161bfe235117ddc888266365bb51"
+      url "https://github.com/franlol/openstate/releases/download/v0.1.3/openstate-linux-x64.tar.gz"
+      sha256 "7b5c5d5dbdbaf3f4c1bc5b574556b521fe9d2435d4d8930d4998bd00ba4189f6"
     end
   end
 
